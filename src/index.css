@@ -14,14 +14,16 @@
     --font-modern-negra: "Modern Negra", sans-serif;
     --font-serif: "DM Serif Text", serif;
 }
+html {
+    overflow-y: auto;  /* scrollbar on html */
+}
 
-html,
 body {
     width: 100%;
     background-color: black;
     color: white;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 @utility flex-center {
