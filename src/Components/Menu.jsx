@@ -1,6 +1,7 @@
 'use client';
 
-import { sliderLists as allCocktails } from '../../Constants/index.js'
+
+import { sliderLists as allCocktails } from "../../constants/index.js";
 import { useRef, useState } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
